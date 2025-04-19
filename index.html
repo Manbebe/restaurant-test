@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Restaurant Dashboard</h1>
+        
+        <!-- Menu Section -->
+        <div class="menu">
+            <h2>Menu</h2>
+            <ul id="menu-list">
+                <!-- Dynamic menu items will be added here -->
+            </ul>
+        </div>
+        
+        <!-- Order Tracking Section -->
+        <div class="orders">
+            <h2>Orders</h2>
+            <table id="order-summary">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Ordered</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic order data will be added here -->
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Earnings Section -->
+        <div class="earnings">
+            <h2>Earnings</h2>
+            <p>Total Money Earned: $<span id="total-earnings">0</span></p>
+        </div>
+        
+        <!-- Inventory Section -->
+        <div class="inventory">
+            <h2>Inventory</h2>
+            <ul id="inventory-list">
+                <!-- Dynamic inventory items will be added here -->
+            </ul>
+        </div>
+        
+        <!-- Buttons -->
+        <div class="controls">
+            <button id="start-day-btn">Start Day</button>
+            <button id="buy-food-btn">Restock Food</button>
+            <button id="skip-day-btn">Skip Day</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
